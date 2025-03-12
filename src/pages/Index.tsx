@@ -67,38 +67,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section id="testimonials" className="py-24 bg-secondary/20">
-        <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-serif text-primary mb-12 text-center fade-up">What Our Patients Say</h2>
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {testimonials.map((testimonial, index) => (
-              <Card key={index} className="p-6 fade-up">
-                <p className="mb-4 italic">{testimonial.quote}</p>
-                <p className="text-sm text-gray-600">{testimonial.author}</p>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Research Section */}
-      <section id="research" className="py-24 bg-white">
-        <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-serif text-primary mb-12 text-center fade-up">Research & Evidence</h2>
-          <div className="max-w-3xl mx-auto fade-up">
-            <p className="mb-6">The British Acupuncture Council (BAcC) provides factsheets and the latest research studies for specific conditions:</p>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-              {conditions.map((condition, index) => (
-                <div key={index} className="p-3 bg-secondary/10 rounded-md text-sm">
-                  {condition}
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Contact Section */}
       <section id="contact" className="py-24 bg-secondary/20">
         <div className="container mx-auto px-6">
@@ -143,6 +111,38 @@ const Index = () => {
                   className="rounded-lg shadow-md"
                 ></iframe>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section id="testimonials" className="py-24 bg-white">
+        <div className="container mx-auto px-6">
+          <h2 className="text-4xl font-serif text-primary mb-12 text-center fade-up">What Our Patients Say</h2>
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {testimonials.map((testimonial, index) => (
+              <Card key={index} className="p-6 fade-up">
+                <p className="mb-4 italic">{testimonial.quote}</p>
+                <p className="text-sm text-gray-600">{testimonial.author}</p>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Research Section */}
+      <section id="research" className="py-24 bg-secondary/20">
+        <div className="container mx-auto px-6">
+          <h2 className="text-4xl font-serif text-primary mb-12 text-center fade-up">Research & Evidence</h2>
+          <div className="max-w-3xl mx-auto fade-up">
+            <p className="mb-6">The British Acupuncture Council (BAcC) provides factsheets and the latest research studies for specific conditions:</p>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+              {conditions.map((condition, index) => (
+                <div key={index} className="p-3 bg-secondary/10 rounded-md text-sm">
+                  {condition}
+                </div>
+              ))}
             </div>
           </div>
         </div>
