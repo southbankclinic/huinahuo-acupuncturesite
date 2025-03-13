@@ -96,7 +96,7 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-24 bg-secondary/20">
+      <section id="contact" className="py-24 bg-white">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-4xl font-serif text-primary mb-12 text-center fade-up">Contact Us</h2>
@@ -145,7 +145,7 @@ const Index = () => {
       </section>
 
       {/* Testimonials Section */}
-      <section id="testimonials" className="py-24 bg-white">
+      <section id="testimonials" className="py-24 bg-secondary/20">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-serif text-primary mb-12 text-center fade-up">What Our Patients Say</h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -160,7 +160,7 @@ const Index = () => {
       </section>
 
       {/* Research Section */}
-      <section id="research" className="py-24 bg-secondary/20">
+      <section id="research" className="py-24 bg-white">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-serif text-primary mb-12 text-center fade-up">Research & Evidence</h2>
           <div className="max-w-3xl mx-auto fade-up">
@@ -177,7 +177,7 @@ const Index = () => {
       </section>
 
       {/* Privacy Notice */}
-      <section id="privacy" className="py-24 bg-white">
+      <section id="privacy" className="py-24 bg-secondary/20">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-4xl font-serif text-primary mb-8 fade-up">Privacy Notice</h2>
