@@ -117,7 +117,7 @@ const Index = () => {
                 <div className="space-y-6">
                   <div>
                     <p className="font-medium">The Clinic@Southbank</p>
-                    <p>76 Roupell Street, London</p>
+                    <p>75 Roupell Street, London</p>
                     <p>SE1 8SS</p>
                     <p>Tel: 020 7928 8333</p>
                   </div>
@@ -139,7 +139,7 @@ const Index = () => {
               </div>
               <div className="h-[400px] rounded-lg overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.5476266503823!2d-0.1097088!3d51.5036468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b06bf1f2d5%3A0x3f5f762b563f883e!2s76%20Roupell%20St%2C%20London%20SE1%208SS!5e0!3m2!1sen!2suk!4v1707913183297!5m2!1sen!2suk"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.547626650382!2d-0.10970879999999999!3d51.5036468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b06bf1f2d5%3A0x3f5f762b563f883e!2s75%20Roupell%20St%2C%20London%20SE1%208SS!5e0!3m2!1sen!2suk!4v1707913183297!5m2!1sen!2suk"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -219,7 +219,7 @@ const Index = () => {
             <div>
               <h3 className="text-xl font-medium mb-4">Location</h3>
               <div className="space-y-2">
-                <p>76 Roupell Street</p>
+                <p>75 Roupell Street</p>
                 <p>London SE1 8SS</p>
                 <p className="mt-4">Hanson Street</p>
                 <p>London W1W 6EA</p>
