@@ -1,10 +1,19 @@
 
 import { useState, useEffect } from 'react';
 import { cn } from "@/lib/utils";
+import { Menu } from "lucide-react";
+import { useIsMobile } from "@/hooks/use-mobile";
+import {
+  ContextMenu,
+  ContextMenuContent,
+  ContextMenuTrigger,
+  ContextMenuItem,
+} from "@/components/ui/context-menu"
 
 const Navigation = () => {
   const [activeSection, setActiveSection] = useState('home');
   const [isScrolled, setIsScrolled] = useState(false);
+  const isMobile = useIsMobile();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -53,22 +62,50 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-serif text-primary">Huina Huo</h1>
-          <div className="hidden md:flex space-x-8">
-            {navItems.map((item) => (
-              <button
-                key={item.id}
-                onClick={() => scrollToSection(item.id)}
-                className={cn(
-                  "text-sm transition-colors duration-200",
-                  activeSection === item.id
-                    ? "text-primary font-medium"
-                    : "text-gray-600 hover:text-primary"
-                )}
-              >
-                {item.label}
-              </button>
-            ))}
-          </div>
+          
+          {isMobile ? (
+            <ContextMenu>
+              <ContextMenuTrigger>
+                <button 
+                  className="p-2 hover:bg-white/10 rounded-md transition-colors"
+                  aria-label="Navigation Menu"
+                >
+                  <Menu className="h-6 w-6" />
+                </button>
+              </ContextMenuTrigger>
+              <ContextMenuContent className="w-48">
+                {navItems.map((item) => (
+                  <ContextMenuItem
+                    key={item.id}
+                    onClick={() => scrollToSection(item.id)}
+                    className={cn(
+                      "cursor-pointer",
+                      activeSection === item.id && "font-medium text-primary"
+                    )}
+                  >
+                    {item.label}
+                  </ContextMenuItem>
+                ))}
+              </ContextMenuContent>
+            </ContextMenu>
+          ) : (
+            <div className="hidden md:flex space-x-8">
+              {navItems.map((item) => (
+                <button
+                  key={item.id}
+                  onClick={() => scrollToSection(item.id)}
+                  className={cn(
+                    "text-sm transition-colors duration-200",
+                    activeSection === item.id
+                      ? "text-primary font-medium"
+                      : "text-gray-600 hover:text-primary"
+                  )}
+                >
+                  {item.label}
+                </button>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </nav>
