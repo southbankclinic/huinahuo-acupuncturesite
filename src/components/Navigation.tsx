@@ -4,11 +4,11 @@ import { cn } from "@/lib/utils";
 import { Menu } from "lucide-react";
 import { useIsMobile } from "@/hooks/use-mobile";
 import {
-  ContextMenu,
-  ContextMenuContent,
-  ContextMenuTrigger,
-  ContextMenuItem,
-} from "@/components/ui/context-menu"
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuTrigger,
+  DropdownMenuItem,
+} from "@/components/ui/dropdown-menu"
 
 const Navigation = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -64,18 +64,18 @@ const Navigation = () => {
           <h1 className="text-2xl font-serif text-primary">Huina Huo</h1>
           
           {isMobile ? (
-            <ContextMenu>
-              <ContextMenuTrigger>
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
                 <button 
                   className="p-2 hover:bg-white/10 rounded-md transition-colors"
                   aria-label="Navigation Menu"
                 >
                   <Menu className="h-6 w-6" />
                 </button>
-              </ContextMenuTrigger>
-              <ContextMenuContent className="w-48">
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" className="w-48">
                 {navItems.map((item) => (
-                  <ContextMenuItem
+                  <DropdownMenuItem
                     key={item.id}
                     onClick={() => scrollToSection(item.id)}
                     className={cn(
@@ -84,10 +84,10 @@ const Navigation = () => {
                     )}
                   >
                     {item.label}
-                  </ContextMenuItem>
+                  </DropdownMenuItem>
                 ))}
-              </ContextMenuContent>
-            </ContextMenu>
+              </DropdownMenuContent>
+            </DropdownMenu>
           ) : (
             <div className="hidden md:flex space-x-8">
               {navItems.map((item) => (
