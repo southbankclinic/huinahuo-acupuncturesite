@@ -1,4 +1,3 @@
-
 import Navigation from "@/components/Navigation";
 import { useEffect } from "react";
 import Hero from "./components/Hero";
@@ -9,6 +8,7 @@ import Testimonials from "./components/Testimonials";
 import Research from "./components/Research";
 import Privacy from "./components/Privacy";
 import Footer from "./components/Footer";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 const Index = () => {
   useEffect(() => {
@@ -46,6 +46,7 @@ const Index = () => {
       <Research />
       <Privacy />
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 };
