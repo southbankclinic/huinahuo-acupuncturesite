@@ -9,7 +9,7 @@ const Hero = () => {
         <p className="text-xl md:text-2xl mb-8">Acupuncture & Traditional Chinese Medicine</p>
         <div className="flex gap-4 justify-center">
           <Button 
-            onClick={() => window.location.href = 'mailto:huinahuo@southbankclinic.co.uk'}
+            onClick={() => window.location.href = 'mailto:info@huinalondon.com'}
             className="bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white border border-white/50"
           >
             Book Appointment

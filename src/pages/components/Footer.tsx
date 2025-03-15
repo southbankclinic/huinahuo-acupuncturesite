@@ -7,7 +7,7 @@ const Footer = () => {
             <h3 className="text-xl font-medium mb-4">Contact Us</h3>
             <div className="space-y-2 text-sm">
               <p>Huina Huo Acupuncture</p>
-              <p>huinahuo@southbankclinic.co.uk</p>
+              <p>info@huinalondon.com</p>
               <p>Tel: 020 7928 8333</p>
             </div>
           </div>

@@ -15,6 +15,10 @@ const Contact = () => {
                   <p>Tel: 020 7928 8333</p>
                 </div>
                 <div className="mt-6">
+                  <h3 className="text-xl font-medium mb-4">Email</h3>
+                  <p>info@huinalondon.com</p>
+                </div>
+                <div className="mt-6">
                   <h3 className="text-xl font-medium mb-4">Clinic Hours</h3>
                   <div className="space-y-2">
                     <p>Monday - Friday: 9:00am - 8:30pm</p>
