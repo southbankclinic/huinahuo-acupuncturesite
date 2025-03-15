@@ -1,5 +1,5 @@
-
 import { Card } from "@/components/ui/card";
+import img from "/Huina5.jpg";
 
 const About = () => {
   return (
@@ -21,11 +21,11 @@ const About = () => {
             </div>
           </div>
           <div className="order-1 md:order-2">
-            <div className="aspect-[3/4] rounded-lg overflow-hidden shadow-xl fade-up">
+            <div className="aspect-[3/4] rounded-lg overflow-hidden shadow-xl fade-up max-w-sm mx-auto">
               <img
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+                src={img}
                 alt="Huina Huo"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-center scale-75"
               />
             </div>
           </div>

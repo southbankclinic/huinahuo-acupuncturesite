@@ -1,4 +1,3 @@
-
 import { MessageCircle } from "lucide-react";
 import {
   Popover,
@@ -22,7 +21,7 @@ const FloatingWhatsApp = () => {
             <MessageCircle className="h-6 w-6" />
           </button>
         </PopoverTrigger>
-        <PopoverContent className="w-60" align="end">
+        <PopoverContent className="w-60 bg-white" align="end">
           <div className="space-y-2">
             <h3 className="font-medium">Chat with us</h3>
             <p className="text-sm text-muted-foreground">Contact us on WhatsApp for appointments and inquiries.</p>

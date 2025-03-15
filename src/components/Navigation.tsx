@@ -64,7 +64,7 @@ const Navigation = () => {
     )}>
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <h1 className="text-2xl font-serif text-primary">Huina Huo</h1>
+          <h1 className="text-2xl font-serif text-primary">Huina Huo Acupuncture</h1>
           
           {isMobile ? (
             <DropdownMenu>

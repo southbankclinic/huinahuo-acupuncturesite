@@ -1,4 +1,3 @@
-
 import { Card } from "@/components/ui/card";
 
 export const testimonials = [
@@ -10,6 +9,14 @@ export const testimonials = [
     quote: "I've been receiving acupuncture treatment from Huina for over two years now. She is an extremely knowledgeable and fantastic acupuncturist!",
     author: "Rachel, West London"
   },
+  {
+    quote: "I have been seeing Huina for treatments following an operation to my lower back. She has been invaluable to my recovery. I would recommend her to anyone. Thanks Huina!",
+    author: "Umi, Notting Hill"
+  },
+  {
+    quote: "I started seeing Huina for fertility support, and her treatments have helped me feel more balanced both physically and emotionally. Her expertise in Traditional Chinese Medicine is impressive.",
+    author: "Lisa, Chelsea"
+  }
 ];
 
 const Testimonials = () => {
