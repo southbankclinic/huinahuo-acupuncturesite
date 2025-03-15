@@ -2,7 +2,7 @@ import { Card } from "@/components/ui/card";
 
 const Treatments = () => {
   return (
-    <section id="treatments" className="py-24 bg-secondary/20">
+    <section id="treatments" className="py-24 bg-white">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-serif text-primary mb-12 text-center fade-up">Our Treatments</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 fade-up">
@@ -25,7 +25,7 @@ const Treatments = () => {
           </Card>
           
           <Card className="p-6 text-center hover:shadow-lg transition-shadow">
-            <h3 className="text-xl font-serif text-primary mb-4">Fertility Support</h3>
+            <h3 className="text-xl font-serif text-primary mb-4">Fertility & IVF Support</h3>
             <p className="text-gray-600 mb-4">Specialized treatments to support natural fertility and IVF complementary care.</p>
             <div className="text-sm text-gray-700">
               <p>Initial consultation (including treatment): £105</p>

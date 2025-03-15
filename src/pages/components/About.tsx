@@ -3,13 +3,15 @@ import img from "/Huina5.jpg";
 
 const About = () => {
   return (
-    <section id="about" className="py-24 bg-white">
+    <section id="about" className="py-24 bg-secondary/20">
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto items-center">
           <div className="order-2 md:order-1">
             <h2 className="text-4xl font-serif text-primary mb-8 fade-up">About Huina</h2>
             <div className="prose prose-lg max-w-none fade-up">
-              <p className="mb-6">Huina is a highly qualified and multi-disciplinary practitioner, specializing in Chinese Medicine and acupuncture. With extensive training from the University of Westminster, she holds:</p>
+              <p className="mb-6">
+                Huina is a skilled and multi-disciplinary practitioner, originally trained as a beauty therapist specializing in Swedish and facial massage. She then pursued her passion for Chinese medicine, earning a BSc (Hons) in Acupuncture from the University of Westminster. Huina gained practical experience at the University's Polyclinic, treating various conditions including fertility and IVF support. She furthered her expertise with an MSc (Hons) in Chinese Herbal Medicine and is a licensed practitioner with the Register of Chinese Herbal Medicine (RCHM). In addition to her UK studies, Huina has deepened her knowledge through training in Mainland China and Taiwan, including studying under Prof. Xian Jianchun at Guangzhou University of Chinese Medicine and gaining insights into cosmetic acupuncture at Taiwan China Medical University Hospital. She holds:
+              </p>
               <ul className="list-disc pl-6 mb-6">
                 <li>BSc (Hons) Chinese Medicine Acupuncture</li>
                 <li>MSc(Hons) Chinese Herbal Medicine</li>
