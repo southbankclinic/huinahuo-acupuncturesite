@@ -14,7 +14,7 @@ const About = () => {
               </p>
               <ul className="list-disc pl-6 mb-6">
                 <li>BSc (Hons) Chinese Medicine Acupuncture</li>
-                <li>MSc(Hons) Chinese Herbal Medicine</li>
+                <li>MSc (Hons) Chinese Herbal Medicine</li>
                 <li>Member of the British Acupuncture Council</li>
                 <li>Diploma of Qigong Tui Na</li>
                 <li>First aid certificate</li>
