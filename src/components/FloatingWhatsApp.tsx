@@ -7,7 +7,7 @@ import {
 
 const FloatingWhatsApp = () => {
   const openWhatsApp = () => {
-    window.open('https://wa.me/442079288333', '_blank');
+    window.open('https://wa.me/447988978668', '_blank');
   };
 
   return (
