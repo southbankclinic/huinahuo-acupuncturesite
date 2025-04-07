@@ -23,7 +23,7 @@ const About = () => {
             </div>
           </div>
           <div className="order-1 md:order-2">
-            <div className="aspect-[3/4] rounded-lg overflow-hidden shadow-xl fade-up max-w-sm mx-auto">
+            <div className="aspect-3/4 rounded-lg overflow-hidden shadow-xl fade-up max-w-sm mx-auto">
               <img
                 src={img}
                 alt="Huina Huo"
