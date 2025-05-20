@@ -37,7 +37,7 @@ const Treatments = () => {
             <h3 className="text-xl font-serif text-primary mb-4">Menopause Support</h3>
             <p className="text-gray-600 mb-4">Holistic approach to managing menopause symptoms and hormonal balance.</p>
             <div className="text-sm text-gray-700">
-              <p>Initial consultation (including treatment): £105</p>
+              <p>Initial consultation (including treatment): £110</p>
               <p>Follow up appointments: £85</p>
             </div>
           </Card>
