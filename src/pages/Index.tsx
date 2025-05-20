@@ -6,7 +6,6 @@ import Treatments from "./components/Treatments";
 import Contact from "./components/Contact";
 import Testimonials from "./components/Testimonials";
 import Research from "./components/Research";
-import Privacy from "./components/Privacy";
 import Footer from "./components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
@@ -44,7 +43,6 @@ const Index = () => {
       <Contact />
       <Testimonials />
       <Research />
-      <Privacy />
       <Footer />
       <FloatingWhatsApp />
     </div>
