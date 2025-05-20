@@ -10,7 +10,7 @@ const Treatments = () => {
             <h3 className="text-xl font-serif text-primary mb-4">Acupuncture</h3>
             <p className="text-gray-600 mb-4">Traditional Chinese acupuncture for pain management, stress relief, and overall wellness.</p>
             <div className="text-sm text-gray-700">
-              <p>Initial consultation (including treatment): £105</p>
+              <p>Initial consultation (including treatment): £110</p>
               <p>Follow up appointments: £85</p>
             </div>
           </Card>
@@ -19,8 +19,8 @@ const Treatments = () => {
             <h3 className="text-xl font-serif text-primary mb-4">Facial Acupuncture</h3>
             <p className="text-gray-600 mb-4">Natural facial rejuvenation to improve skin tone, reduce fine lines, and promote collagen production.</p>
             <div className="text-sm text-gray-700">
-              <p>Initial consultation (including treatment): £150</p>
-              <p>Follow up appointments: £100</p>
+              <p>Initial consultation (including treatment): £180</p>
+              <p>Follow up appointments: £150</p>
             </div>
           </Card>
           
@@ -28,7 +28,7 @@ const Treatments = () => {
             <h3 className="text-xl font-serif text-primary mb-4">Fertility & IVF Support</h3>
             <p className="text-gray-600 mb-4">Specialized treatments to support natural fertility and IVF complementary care.</p>
             <div className="text-sm text-gray-700">
-              <p>Initial consultation (including treatment): £105</p>
+              <p>Initial consultation (including treatment): £110</p>
               <p>Follow up appointments: £85</p>
             </div>
           </Card>
