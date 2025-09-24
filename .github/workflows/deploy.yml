@@ -29,7 +29,7 @@ jobs:
           npm install --include=dev
           npm run build
       - name: Upload static files as an artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: "dist/"
 
